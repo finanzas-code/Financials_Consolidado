@@ -221,17 +221,16 @@ const CATEGORY_RULES = [
     keywords: ["publicidad", "marketing", "digital publicidad", "sm"],
   },
   {
-    category: "interests_token_holders",
-    type: "expense",
-    prefixes: ["6690"],
-    keywords: [
-      "token holder",
-      "distribucion",
-      "intereses token",
-      "otros gastos financieros",
-    ],
-  },
-  {
+  category: "interests_token_holders",
+  type: "expense",
+  prefixes: ["6690", "6622"],   // ← solo añadir esto
+  keywords: [
+    "token holder",
+    "distribucion",
+    "intereses token",
+    "otros gastos financieros",
+  ],
+},
     category: "fx_gain_loss",
     type: "mixed",
     prefixes: ["7680", "6680"],
