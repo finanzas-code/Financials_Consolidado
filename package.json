@@ -13,12 +13,14 @@
     "xlsx": "0.18.5",
     "xlsx-js-style": "1.2.0"
   },
+},
   "devDependencies": {
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "loader-utils": "3.2.1",
     "typescript": "5.7.2"
-  },
+  }
+}
   "overrides": {
   "ajv": "^8.12.0"
 }
