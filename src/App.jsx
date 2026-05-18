@@ -540,8 +540,7 @@ function parseExcelQuickBooksPL(file) {
             }
             if (rule.type === "income")
               result[month][rule.category] += Math.abs(val);
-            else if (rule.type === "expense")
-              result[month][rule.category] += Math.abs(val);
+            else if (rule.type === "expense") result[month][rule.category] -= Math.abs(val);
             else result[month][rule.category] += val;
           }
         }
